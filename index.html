@@ -26,14 +26,14 @@
 <body>
     
     <!-- Navbar -->
-
     <nav class="navbar navbar-expand-md fixed-top navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">FIMI</a>
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
+            <a class="navbar-brand logo" href="#">FIMI</a>
+            
 
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -63,6 +63,7 @@
         </div>
       </nav>
     
+      <!-- Jumbo (carousel + section 0) -->
     <div class="container-fluid jumbo p-0 mb-5">
 
         <!-- carousel -->
@@ -94,7 +95,7 @@
     
     <!-- Section 1 - welcome -->
     <!-- visible on mobile -->
-    <div class="container section-one d-sm-block d-md-none">
+    <section class="container section-one d-sm-block d-md-none">
         <div class="row pt-5 pb-5">
             <div class="col-12 pb-4">
                 <img class="img-fluid width100" src="./img/04 - FIMI_LineaSgrassaggio.png" alt="">
@@ -119,11 +120,11 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
     <!-- Section 1 - welcome -->
     <!-- visible from tablets -->
-    <div class="container section-one d-none d-md-block">
+    <section class="container section-one d-none d-md-block">
         <div class="row">
 
             <div class="col-6 left">
@@ -163,10 +164,10 @@
 
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Section 2 - In breve -->
-    <div class="bg-light-gray shortlySection">
+    <section class="bg-light-gray shortlySection">
         <div class="container">
             <div class="row ps-3 pb-5">
                 
@@ -231,10 +232,10 @@
             
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Section 3 - Prodotti FIMI -->
-    <div class="products bg-blue text-white">
+    <section class="products bg-blue text-white">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 pt-5">
@@ -314,10 +315,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     
     <!-- Section 4 - News -->
-    <div class="news container">
+    <section class="news container">
         <div class="row flex-row-reverse pt-5 pb-5">
             <div class="col-12 pb-3">
                 <h2>News</h2>
@@ -342,10 +343,10 @@
                 <h3>Questa è FIMI</h3>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Contacts -->
-    <div class="contacts d-md-none bg-blue text-white">
+    <section class="contacts d-md-none bg-blue text-white">
         <div class="container">
             <div class="row pt-5 pb-5">
                 <div class="col-12">
@@ -360,7 +361,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer bg-dk-blue text-white">

@@ -1,7 +1,3 @@
-.container {
-    font-family: 'Roboto', sans-serif;
-}
-
 .text-light-blue{
     color: #70A9D3;
 }
@@ -16,6 +12,14 @@
 
 .bg-light-gray{
     background-color: #fafafa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    padding: 20px 0;
 }
 
 a{
@@ -72,7 +76,7 @@ button{
     font-weight: bold;
 }
 
-/* navbar */
+/* navbar -------------------------------*/
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-brand,
@@ -121,12 +125,21 @@ button{
     text-transform: uppercase;
 }
 
+.language-dark{
+    border: 1px solid #111D39 !important;
+}
+
+/* jumbo ------------------------------- */
+
 .slider img{
     height: 50vh;
     object-fit: cover;
 }
 
-/* highlighted------------------------------- */
+.jumbo-inner{
+    padding: 50px;
+}
+
 .highlighted-inner{
     height: 80px;
     overflow-y: auto;
