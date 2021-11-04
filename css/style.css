@@ -160,7 +160,14 @@ button{
 
 /* products------------------------------- */
 .products img{
-    filter: opacity(70%); /*ToDo*/
+    filter: opacity(70%);
+    width: 100%;
+}
+
+
+.layover{
+    width: 100%;
+    background-color: hsl(221, 100%, 20%);
 }
 
 
