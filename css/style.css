@@ -23,6 +23,14 @@ a{
     text-decoration: none;
 }
 
+ul {
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
 h6{
     font-size: 14px;
 }
@@ -165,6 +173,11 @@ button{
     text-decoration: none;
 }
 
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 /*  Small devices (landscape phones, 576px and up) */
@@ -214,6 +227,14 @@ button{
         border-radius: 50%;
         text-align: center;
         width: 74px;
+    }
+
+    .footer [class*="col-md-"]{
+        border-right: 1px solid #ffffff31;
+    }
+
+    .footer [class*="col-md-"]:last-child{
+        border-right: none;
     }
 }
 
