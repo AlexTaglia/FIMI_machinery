@@ -146,15 +146,21 @@ button{
     line-height: 72px;
 }
 
+.shortlySection .h5{
+    margin-bottom: 0;
+}
+
 .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
     font-weight: bold;
     border: 1px solid #192C56;
     color: #192C56;
     border-radius: 50%;
-    text-align: center;
     line-height: 72px;
-    width: 80px;
+    width: 74px;
 }
 /* News ----------------------------------- */
 .news p{
